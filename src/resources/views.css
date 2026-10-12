@@ -1,0 +1,38 @@
+[hidden]{display:none!important}
+.secondary-heading{padding-top:31px}.secondary-heading h1{font-size:25px}
+.full-page-panel{min-height:280px;padding:19px}.full-page-panel .toolbar{margin-top:0}
+.page-table-summary{border-top:1px solid var(--line);padding-top:13px;margin-top:8px;color:#8c9991;font-size:10px}
+.pagination .current-page{min-width:55px}.muted-dash{color:#c1c9c4;padding-left:5px}
+.active-filter{background:#edf6f0!important;border-color:#cce3d4!important;color:var(--green)!important}
+.route-link{cursor:pointer}
+.courier-summary-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin:0 0 15px}
+.courier-summary-grid .stat-card{height:112px}
+.courier-detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.courier-detail-card{padding:17px}.courier-card-head{display:flex;align-items:center;gap:10px}
+.large-avatar{width:40px;height:40px;font-size:11px}.courier-card-head .courier-info strong{font-size:12px}
+.courier-card-head .courier-info span{font-size:9px}
+.courier-metrics{display:grid;grid-template-columns:repeat(3,1fr);padding:14px 0;margin:13px 0;border-top:1px solid #f0f2f1;border-bottom:1px solid #f0f2f1}
+.courier-metrics div{text-align:center;border-right:1px solid #f0f2f1}.courier-metrics div:last-child{border:0}
+.courier-metrics strong,.courier-metrics span{display:block}.courier-metrics strong{font:700 17px Manrope,sans-serif}
+.courier-metrics span{font-size:8px;color:#96a19b;margin-top:3px}
+.assigned-title{display:flex;justify-content:space-between;color:#59675f;font-size:9px;font-weight:700;margin-bottom:4px}
+.assigned-title span{color:#9aa49f}
+.assigned-order{display:flex;align-items:center;gap:8px;border-top:1px solid #f1f3f2;padding:9px 0;flex-wrap:wrap}
+.assigned-order>div{flex:1;min-width:105px}.assigned-order>div strong,.assigned-order>div span{display:block}
+.assigned-order>div strong{font-size:10px;color:#35473e}.assigned-order>div span{font-size:8px;color:#909b95;margin-top:4px}
+.small-action{border:1px solid #dbe9df;border-radius:5px;background:#f4faf6;color:#337c53;padding:6px 8px;font-size:8px;font-weight:700}
+.small-action:hover{background:#e5f3e9}.no-assigned{font-size:9px;color:#9aa49f;margin:11px 0 3px}
+.destination-detail-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.destination-card{padding:16px}.destination-card-top{display:flex;align-items:center;justify-content:space-between}
+.destination-pin{height:29px;width:29px;display:grid;place-items:center;background:#eaf5ef;color:var(--green);border-radius:8px;font-size:16px}
+.destination-card h2{font:700 14px Manrope,sans-serif;margin:12px 0 4px}.destination-card>p{color:#98a39d;font-size:9px;margin:0}
+.destination-statuses{display:flex;gap:5px;flex-wrap:wrap;margin:12px 0}.destination-statuses .status-pill{font-size:7px;padding:5px}
+.destination-package-list{border-top:1px solid #eff2f0;padding-top:7px}.destination-package-list>div{display:flex;justify-content:space-between;align-items:center;padding:5px 0;font-size:9px}
+.destination-package-list .status-pill{font-size:7px;padding:4px 6px}.destination-package-list small{display:block;color:#9aa49f;font-size:8px;padding-top:4px}
+.history-panel{min-height:300px}.history-list{margin-top:15px}.history-list .activity{padding:12px 2px;border-top:1px solid #f0f2f1}
+.history-list .activity-copy{font-size:10px}.history-list .activity time{font-size:9px}
+.history-empty{text-align:center;padding:48px 10px}.history-empty>span{font-size:25px;color:#77a88b}
+.history-empty h2{font:700 14px Manrope,sans-serif;margin:11px 0 5px}.history-empty p{font-size:10px;color:#929e97;margin:0}
+.secondary-heading+.courier-summary-grid{margin-top:0}
+@media(max-width:900px){.courier-detail-grid{grid-template-columns:1fr}.destination-detail-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.secondary-heading{align-items:flex-start}.secondary-heading .primary-button{align-self:flex-start}.courier-summary-grid{grid-template-columns:1fr}.courier-summary-grid .stat-card{height:100px}.destination-detail-grid{grid-template-columns:1fr}.assigned-order .status-pill{margin-left:auto}.page-table-summary{line-height:1.6}}
