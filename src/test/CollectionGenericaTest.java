@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ColeccionGenericaTest {
+class CollectionGenericaTest {
     private ColeccionGenerica<String> coleccion;
     @BeforeEach void setUp() { coleccion = new ListaSimple<>(); }
     @Test void testAgregarYConsultarPorPosicion() {

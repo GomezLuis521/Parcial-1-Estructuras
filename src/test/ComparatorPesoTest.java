@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
-class ComparadorPesoTest {
+class ComparatorPesoTest {
     private ComparadorPeso comparador;
     @BeforeEach void setUp() { comparador = new ComparadorPeso(); }
     @Test void testOrdenaPesoDeMayorAMenor() {
